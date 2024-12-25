@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Calculator.css">
+    </head>
+    <body>
+        <div class="container">
+            <input class="input js-input" readonly placeholder="0">
+            <div class="buttons">
+                <button onclick="addvalue('7')">7</button>
+                <button onclick="addvalue('8')">8</button>
+                <button onclick="addvalue('9')">9</button>
+                <button class="operator" onclick="addvalue('+')" value="7">+</button>
+                <button onclick="addvalue('4')">4</button>
+                <button onclick="addvalue('5')">5</button>
+                <button onclick="addvalue('6')">6</button>
+                <button class="operator" onclick="addvalue('-')">-</button>
+                <button onclick="addvalue('1')">1</button>
+                <button onclick="addvalue('2')">2</button>
+                <button onclick="addvalue('3')">3</button>               
+                <button class="operator" onclick="addvalue('*')">*</button>
+                <button onclick="addvalue('0')">0</button>
+                <button onclick="addvalue('.')">.</button>                
+                <button class="operator" onclick="givevalue()">=</button>
+                <button class="operator" onclick="addvalue('/')">/</button>
+                <button class="clear-btn" onclick="clearvalue('C')">C</button>               
+            </div>
+        </div>
+            
+        <script src="Calculator.js"></script>
+    </body>
+</html>

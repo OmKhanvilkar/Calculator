@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(54, 45, 45);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.input{
+    width:auto;
+    padding: 20px;
+    height: 60px;
+    text-align: right;
+    border: none;
+    background-color: rgb(56, 55, 55);
+    color: orange;
+    font-size: larger;
+    border-radius: 5px;
+}
+.buttons{  
+    display: grid;
+    background-color: rgb(17, 17, 17);
+    grid-template-columns: repeat(4,1fr);
+    gap:3px;
+    padding: 10px;
+}
+
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+button:hover{  
+    opacity: 0.8;
+}
+button:active{  
+    opacity: 1;
+}
+.operator{
+    background-color: orange;
+}
+
